@@ -1,0 +1,47 @@
+html,body{
+	margin: 0 auto;
+	width: 100%;
+	height: 100%;
+	overflow: scroll;
+}
+a, h1, h4{
+	color: white;
+}
+.post{
+	text-align: center;
+	margin: 10vh auto;
+}
+.input-group-addon{
+  	background: #343a40;
+  	color: white
+  }
+
+.nav-link.active{
+	color: white;
+	background-color: green;
+}
+.footer{
+	color: white;
+	position:absolute;
+	bottom:0;
+}
+@media (max-width: 375px) {
+  .text-muted{
+  	display: none;
+  }
+}
+/*@media (max-width: 1025px) {
+  .input-group-addon{
+  	background: #343a40;
+  	color: white
+  }
+}*/
+
+/*#bg{
+
+	height: 100vh;
+	background-image: url(../assets/img.jpg); 
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}*/
